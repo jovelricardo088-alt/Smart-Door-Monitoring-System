@@ -28,7 +28,7 @@ Uploading failed repeatedly with this error:
 
 > A fatal error occurred: Failed to connect to ESP32: No serial data received.
 
-![No serial data received error](../images/01-led-test/no-serial-data-error.jpg)
+![No serial data received error](.../images/01-led-test/no-serial-data-error.jpg)
 
 
 **Cause:** The ESP32-CAM has no auto-reset circuit, so it has to be put into bootloader mode manually:
