@@ -21,7 +21,7 @@ GPIO0 → GND, connected only while flashing new code.
 ---
 
 ## Problem 1: Driver Confusion
-Installed the wrong driver initially — mixed up the ESP32 board driver with the CP2102 programmer's driver. The CP2102 needs the **Silicon Labs CP210x VCP driver**, not anything from Espressif. A reboot after installing was required before Windows recognized the device correctly.
+Installed the wrong driver initially — mixed up the ESP32 board driver with the CP2102 programmer's driver. The CP2102 needed the **Silicon Labs CP210x VCP driver**. A reboot after installing was required before Windows recognized the device correctly.
 
 ## Problem 2: "No Serial Data Received"
 Uploading failed repeatedly with this error:
