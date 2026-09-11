@@ -35,6 +35,7 @@ This was the same error from Stage 1, but it took far longer to solve here. Two 
 .
 
 ## Final Code
+Used the built-in CameraWebServer example from the ESP32 Arduino library (File > Examples > ESP32 > Camera > CameraWebServer). In camera_pins.h, selected the AI-Thinker board by uncommenting: #define CAMERA_MODEL_AI_THINKER
 
 
 ## Key Takeaways
