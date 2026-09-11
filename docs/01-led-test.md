@@ -1,4 +1,4 @@
-# Stage 1: LED Blink Test — Confirming the ESP32-CAM Works
+# Stage 1: LED Blink Test 
 
 **Goal:** Before writing any door-monitoring logic, confirm the ESP32-CAM board, CP2102 programmer, and upload process all work correctly using the simplest possible test — blinking an external LED.
 
