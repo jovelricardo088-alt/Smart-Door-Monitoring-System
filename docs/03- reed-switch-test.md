@@ -51,7 +51,7 @@ Moving the ground wire to a different GND pin (and onto the breadboard's ground 
 - `INPUT_PULLUP` inverts expected logic — verify actual pin behavior with Serial output rather than assuming.
 - When something "should obviously work" in code but doesn't, don't neglect hardware as a possible cause. Isolate with a minimal test sketch (like a plain blink) to rule out wiring/hardware before continuing to debug software.
 - Not all GND pins on a board are guaranteed equal — a single bad ground connection can silently break an entire circuit while looking, on paper, completely correct.
-- The ESP32-CAM overall was a frustrating board to work with — no onboard USB-serial chip (needs an external adapter), a fiddly GPIO0/reset flashing routine, and in this case a faulty GND pin. Would not buy this board again.
+- The ESP32-CAM overall was a frustrating board to work with — no onboard USB-serial chip (needs an external adapter), a fiddly GPIO0/reset flashing routine, and in this case a faulty GND pin. Would not buy this board again!
 
 ## Final Working Logic ( for the loop only) 
 
