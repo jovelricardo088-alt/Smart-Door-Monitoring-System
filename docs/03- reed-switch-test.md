@@ -1,7 +1,7 @@
 
 # ESP32-CAM Reed Switch Delayed Trigger
 
-![No serial data received error](../images/led-test/reed.png)
+![No serial data received error](../images/led-test/Reed.png)
 
 ## Goal
 
