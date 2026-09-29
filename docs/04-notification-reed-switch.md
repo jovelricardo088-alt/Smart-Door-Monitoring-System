@@ -2,6 +2,8 @@
 
 **Goal:** Detect the door opening with a magnetic reed switch and push a notification to my phone via a Telegram bot.
 
+![No serial data received error](../images/led-test/Notification.jpeg)
+
 ---
 
 ## Hardware
