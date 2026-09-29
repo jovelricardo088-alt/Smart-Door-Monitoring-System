@@ -1,6 +1,8 @@
 
 # ESP32-CAM Reed Switch Delayed Trigger
 
+![No serial data received error](../images/led-test/reed.png)
+
 ## Goal
 
 Build a system where a magnetic reed switch (input) controls an LED (output) with a delay condition: the LED should only turn on after the reed switch has been continuously triggered (magnet away) for **10 seconds or more**. If the switch goes back to its resting state at any point, the LED should turn off immediately, and the 10-second timer should reset.
@@ -42,6 +44,7 @@ With `INPUT_PULLUP`, the logic is inverted from what's intuitive: magnet **away*
 After all the software fixes were in place, the LED still didn't light up — not even in an isolated blink-only test sketch with no camera code at all. Systematic hardware isolation (testing GPIO13 completely on its own, checking LED polarity, checking the resistor, trying a different GPIO) eventually pointed to the actual problem: **one of the ESP32-CAM's GND pins simply wasn't working connection.**
 
 Moving the ground wire to a different GND pin (and onto the breadboard's ground rail) immediately fixed it — the code had been correct for a while before this was caught.
+
 
 ## Lessons Learned
 
